@@ -10,8 +10,9 @@ app.get("/", (request, response) => {
   let k = function(){
     "jjdklfd"
 }
+git.init()
 
-git.addRemote('um','https://github.com/umanoj9339/cc.git')
+git.addRemote('origin','https://github.com/umanoj9339/cc.git')
 
 git.add(['simple.js'])
 
